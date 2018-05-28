@@ -1,0 +1,25 @@
+{
+  "name": "bfx-report",
+  "version": "0.1.0",
+  "description": "Report page to overview the user actions in Bitfinex and download related csv files",
+  "main": "electron.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfinexcom/bfx-report.git"
+  },
+  "keywords": [
+    "bitfinex"
+  ],
+  "author": "Bitfinex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitfinexcom/bfx-report/issues"
+  },
+  "homepage": "https://github.com/bitfinexcom/bfx-report#readme",
+  "dependencies": {
+    "electron": "^2.0.2"
+  }
+}
