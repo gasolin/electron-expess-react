@@ -1,10 +1,10 @@
 {
-  "name": "bfx-report",
+  "name": "bfx-report-server",
   "version": "0.1.0",
-  "description": "Report page to overview the user actions in Bitfinex and download related csv files",
-  "main": "electron.js",
+  "description": "bfx-report server",
+  "main": "index.js",
   "scripts": {
-    "electron": "electron .",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/bitfinexcom/bfx-report#readme",
   "dependencies": {
-    "electron": "^2.0.2"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
   }
 }
