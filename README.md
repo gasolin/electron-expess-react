@@ -1,13 +1,30 @@
 electron + express server + create-react-app in single repo
 
+## Setup
+
+Currently manaul dependency install is required, could use `lerna` instead to automate the setup process.
+
+```sh
+npm install -g express
+npm install
+cd server && npm install
+cd web && npm install
+```
+
 ## Start Electron window
 
-$ npm run electron
+```sh
+npm run electron
+```
 
 ## Start Server only
 
-$ cd server && npm start
+```sh
+cd server && npm start
+```
 
 ## Start frontend only
 
-$ cd web && npm start
+```sh
+cd web && npm start
+```
